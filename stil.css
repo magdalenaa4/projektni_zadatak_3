@@ -1,0 +1,115 @@
+/*Elemente svih stranica stilizirajte kroz CSS koristeći stilove s vježbi sa promijenjenim bojama, fontovima,
+veličinama itd. na pregledan i uredan način. */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+	background-image: url('slike/slike/pozadina.jpg');
+}
+
+/*navigacija*/
+.navbar{
+	float: right;
+}
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover{
+	color: red;
+}
+a:link{
+	color: red;
+}
+
+/*zajedničko*/
+h1{
+	font-size:42px;
+    font-family: "MagdalenaKajic";
+    src:url("font/MagdalenaKajic.sfd"); 
+}
+h2{
+	font-family: "Montserrat", sans-serif;
+}
+p{
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+}
+img, video{
+	height:350px;
+	width: auto;
+}
+.sadrzaj{
+	width:90%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+
+/*index*/
+.pozdrav{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+.pozdrav a{
+	text-decoration: none;
+	color: gray;
+}
+.pozdrav a:hover{
+	color: red;
+}
+.pozdrav a:link{
+	color: red
+}
+.paragraf_pozdrav{
+	color: black;
+	font-size: 48px;
+}
+.paragraf_pozdrav span{
+	color:red;
+}
+h2{
+	color: gray;
+}
+
+
+/*o meni*/
+.omeni_interesi{
+	margin-top: 10px;
+}
+.omeni_interesi img{
+	padding-left: 10px;
+}
+
+.radovi_srednja{
+	margin-top: 100px;
+}
+.radovi_srednjai img{
+	padding-left: 10px;
+}
+
+/*vježbe*/
+.vjezbe{
+	margin-top: 100px;
+	width: 90%;
+}
+.vjezbe img, .vjezbe video {
+	padding-left: 10px;
+}
+
+
+/*video*/
+.video video{
+	height: 600px;
+	width:auto;
+}
+
+.paragraf_objasnjenje{
+	margin-top: 50px;
+}
